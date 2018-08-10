@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Test.Logic\Test.Logic.csproj" />
+    <ProjectReference Include="..\Test.Util\Test.Util.csproj" />
   </ItemGroup>
 
 </Project>

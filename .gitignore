@@ -1,1 +1,3 @@
 /src/Test_CrawTar/.vs
+/src/Test_CrawTar/*/obj
+/src/Test_CrawTar/*/bin/
