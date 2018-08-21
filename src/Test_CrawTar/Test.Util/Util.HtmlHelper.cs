@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Test.Util
 {
-   public class Util
+   public static class Util
     {
         public static string GetHtml(string path)
         {
