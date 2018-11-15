@@ -44,7 +44,7 @@ namespace Test.Logic
 
             //获取目标页面HTML
 
-            var html = Util.Util.GetHtml(GetCrawlTargetUrl());
+            var html = Util.Util_HtmlHelper.GetHtml(GetCrawlTargetUrl()).Result;
             var htmlDoc = new HtmlDocument();
 
             htmlDoc.LoadHtml(html);

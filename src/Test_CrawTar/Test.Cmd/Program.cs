@@ -7,11 +7,13 @@ namespace Test.Cmd
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"开始抓取BBS.GuanJia.qq.com内容 Date:{DateTime.Now:yyyy-MM-dd HH:mm:ss}");
+//            Console.WriteLine($"开始抓取BBS.GuanJia.qq.com内容 Date:{DateTime.Now:yyyy-MM-dd HH:mm:ss}");
 
-            BbsGuanJia bbsGuanJia = new BbsGuanJia(baseUrl: "", areaUrl: "");
-
-            bbsGuanJia.JobStart();
+//            BbsGuanJia bbsGuanJia = new BbsGuanJia(baseUrl: "", areaUrl: "");
+//
+//            bbsGuanJia.JobStart();
+            ZolPhoneLogic zol = new ZolPhoneLogic();
+            zol.JobStart();
 
 
         }
